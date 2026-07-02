@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Rich Text CSS as per requirements */
+.rich-content ul { 
+  list-style-type: disc !important; 
+  padding-left: 1.5rem !important; 
+  margin: 0.75rem 0 !important;
+}
+.rich-content ol { 
+  list-style-type: decimal !important; 
+  padding-left: 1.5rem !important; 
+  margin: 0.75rem 0 !important;
+}
+.rich-content li { 
+  display: list-item !important; 
+  margin-bottom: 0.25rem !important;
+}
+.rich-content p { 
+  margin: 0.75rem 0 !important; 
+}
+.rich-content h1, .rich-content h2, .rich-content h3 { 
+  font-weight: bold !important; 
+  margin: 1rem 0 0.5rem 0 !important;
+}
+.rich-content img { 
+  max-width: 100% !important; 
+  height: auto !important; 
+  margin: 1rem 0 !important; 
+  display: block !important; 
+}
+.rich-content strong {
+  font-weight: 700 !important;
+}
+.rich-content em {
+  font-style: italic !important;
+}
